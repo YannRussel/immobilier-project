@@ -47,7 +47,7 @@ ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    width: 40%;
+    width: 60%;
 }
 
 ul li {
@@ -414,7 +414,9 @@ ul li a:hover{
 }
 
 /* #####################################"" SECTION BLOG ######################################"" */
-
+.blog-section{
+    margin-bottom: 0;
+}
 .section-texte-blog{
     margin: auto;
     display: flex;
@@ -432,6 +434,7 @@ ul li a:hover{
     display: inline-block;
     width: 200px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .container-blog{
@@ -453,7 +456,7 @@ ul li a:hover{
     object-fit: cover;
     border: 2px solid #F1F1F1;
     display: block;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .cadran-blog h2{
@@ -480,4 +483,48 @@ ul li a:hover{
     color: #000;
     padding: 10px;
     transition: 0.5s;
+}
+
+/* BARRE DE SEPARATION */
+.space{
+    border-bottom: 1px solid #99999993;
+}
+/* SECTION FOOTER */
+
+.container-footer-desc{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.container-footer-desc .footer-details{
+    line-height: 50px;
+}
+
+.container-footer-desc .footer-details h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-footer-desc .footer-details p{
+    font-weight: 300;
+}
+
+.footer-details a{
+    text-decoration: none;
+    color: #000;
+}
+.footer-details a:hover{
+    color: #F6D238;
+}
+.img-apps{
+    margin-top: 100px;
+}
+.img-play-store img{
+    width: 180px;
+}
+.img-apple-store img{
+    width: 180px;
 }
