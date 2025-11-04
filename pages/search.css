@@ -1,0 +1,31 @@
+.search form {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.search form select {
+    height: 50px;
+    width: 200px;
+    border-color: rgba(128, 128, 128, 0.438);
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.search form .submit input{
+    padding: 5px;
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}

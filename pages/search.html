@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Immo-start une plateforme de Gestion des biens immobiliers</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/03ddddf705.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rechercher un bien immobilier</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="search.css">
 </head>
-
 <body>
     <header>
         <div class="logo-div">
@@ -16,13 +14,12 @@
                 <p>Immo-Start</p>
             </div>
         </div>
-
         <ul>
-            <li><a href="">Acceuil</a></li>
+            <li><a href="../index.html">Acceuil</a></li>
             <li><a href="">destination </a></li>
             <li><a href="">Pricing</a></li>
             <li><a href="">Reviews</a></li>
-            <li><a href="./pages/login.html">Se connecter</a></li>
+            <li><a href="../pages/login.html">Se connecter</a></li>
             <li><a href=""><i class="fa-solid fa-location-dot"></i> Suisse</a></li>
         </ul>
         <div class="btn-header">
@@ -32,41 +29,41 @@
             </button>
         </div>
     </header>
+    <section class="search" style="background-color:#f6d338ec; height: 200px;">
+        <form action="">
+            <select name="" id="">
+                <option value="">Acheter</option>
+                <option value="">Louer</option>
+                <option value="">Louer pour les vaccances</option>
+            </select>
+            <select name="pays" id="pays">
+            <option value="AF">Afghanistan</option>
+            <option value="ZA">Afrique du Sud</option>
+            <option value="DE">Allemagne</option>
+            <option value="AO">Angola</option>
+            <option value="BE">Belgique</option>
+            <option value="BJ">Bénin</option>
+            <option value="BR">Brésil</option>
+            <option value="CA">Canada</option>
+            <option value="CG">Congo</option>
+            <option value="FR">France</option>
+            <option value="GB">Royaume-Uni</option>
+            <option value="US">États-Unis</option>
+            </select>
 
-    <section class="home-section">
-        <div class="left">
-            <img src="./image/img.jpg" alt="" class="left-img-1" />
-            <img src="./image/img2.jpg" alt="" class="left-img-2" />
-        </div>
-        <div class="right">
-            <div>
-                <span class="text-right">Panifiez votre Aventure</span>
-                <h1>La gestion de vos biens immobiliers Commence ici</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-                    officiis, perferendis ratione incidunt ullam magnam provident
-                    accusantium reiciendis porro ut ipsa fuga odit non dolores minus
-                    dignissimos labore et? Voluptatum!
-                </p>
-                <div class="buttons">
-                    <button class="btn">
-                        <span><a href="./pages/search.html" style="text-decoration: none; color: black;">Lancer la recherche</a></span>
-                    </button>
-                    <button class="see-video">
-                        <div class="video-bg">
-                            <div class="play-btn">
-                                <i class="fa-solid fa-play"></i>
-                            </div>
-                        </div>
-                        <span>Watch our story</span>
-                    </button>
-                </div>
+            <select name="" id="">
+                <option value="">Appartement</option>
+            </select>
+            <select name="" id="">
+                <option value="">Prix max</option>
+            </select>
+            <div class="submit">
+                <input type="submit" value="Rechercher">
             </div>
-        </div>
+        </form>
     </section>
-
-    <section class="gallerie">
-        <div class="gallerie-desc">
+    <section class="gallerie" style="margin-top: -50px;">
+        <!-- <div class="gallerie-desc">
             <h1>Les meilleurs agents immobiliers du Monde</h1>
             <h2>Listes uniques au Congo et ses environs</h2>
             <p>Immo-Start offre des services immobiliers sur mesure partout dans le monde et est reconnu
@@ -75,7 +72,7 @@
                 immobilier agréé avec le numéro AICAT 8994. Nommée Meilleure Agence Immobilière Boutique de Barcelone
                 par le
                 magazine britannique Build</p>
-        </div>
+        </div> -->
         <div class="container-gallerie">
             <h3 class="titre-container-gallerie">
                 Propriétés récentes
@@ -83,7 +80,7 @@
 
             <div class="container-gallerie-image">
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -98,7 +95,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/Canada.jpg" alt="" class="img-gallerie">
+                    <img src="../image/Canada.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -113,7 +110,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles4.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles4.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -128,7 +125,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles3.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles3.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -143,7 +140,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles2.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles2.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -158,7 +155,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles1.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles1.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -173,7 +170,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles1.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles1.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -188,7 +185,7 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles1.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles1.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -203,7 +200,52 @@
                     </div>
                 </div>
                 <div class="conrainer-unique-image">
-                    <img src="./image/meubles1.jpg" alt="" class="img-gallerie">
+                    <img src="../image/meubles1.jpg" alt="" class="img-gallerie">
+                    <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
+                        'authentique El Clot</h4>
+                    <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
+                    <p class="para-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        repudiandae ...</p>
+                    <div class="icon-container">
+
+                    </div>
+                    <div class="prix-btn">
+                        <p class="prix-maison">630.000 $</p>
+                        <a href="" class="bouton-galerie">Plus de details</a>
+                    </div>
+                </div>
+                <div class="conrainer-unique-image">
+                    <img src="../image/meubles.jpg" alt="" class="img-gallerie">
+                    <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
+                        'authentique El Clot</h4>
+                    <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
+                    <p class="para-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        repudiandae ...</p>
+                    <div class="icon-container">
+
+                    </div>
+                    <div class="prix-btn">
+                        <p class="prix-maison">630.000 $</p>
+                        <a href="" class="bouton-galerie">Plus de details</a>
+                    </div>
+                </div>
+                <div class="conrainer-unique-image">
+                    <img src="../image/Canada.jpg" alt="" class="img-gallerie">
+                    <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
+                        'authentique El Clot</h4>
+                    <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
+                    <p class="para-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        repudiandae ...</p>
+                    <div class="icon-container">
+
+                    </div>
+                    <div class="prix-btn">
+                        <p class="prix-maison">630.000 $</p>
+                        <a href="" class="bouton-galerie">Plus de details</a>
+                    </div>
+                </div>
+                <div class="conrainer-unique-image">
+                    <img src="../image/meubles4.jpg" alt="" class="img-gallerie">
                     <h4 class="titre-desc-gallerie">Un art de Vivre Eleve avec terasse dans l'authentique dans la
                         'authentique El Clot</h4>
                     <p class="lieu">Barcelone <i class="fa-solid fa-location-dot"></i></p>
@@ -223,147 +265,5 @@
             </div>
         </div>
     </section>
-
-
-    <!-- SECTION POURQUOI NOUS CHOSIR  -->
-
-    <section class="why-us">
-        <div class="titre-para">
-            <p>Pourquoi nous choisir ?</p>
-            <h1>Raison du choix de Immo-start</h1>
-        </div>
-        <div class="details-why-us">
-            <div class="container-flex-why-us">
-                <div class="icons-details-why-us">
-                    <i class="fa-solid fa-book"></i>
-                </div>
-                <div class="desc-details-why-us">
-                    <h2>Conseils d'experts</h2>
-                    <p>Avec plus de 20 ans d'expérience dans l'immobilier, nous comprenons le marché immobilier
-                        Congolais et pouvons vous guider tout au long du processus en toute confiance</p>
-                </div>
-
-            </div>
-            <div class="container-flex-why-us">
-                <div class="icons-details-why-us">
-                    <i class="fa-solid fa-ear-listen"></i>
-                </div>
-                <div class="desc-details-why-us">
-                    <h2>Assistance juridique</h2>
-                    <p>Nous vous donnons accès à des professionnels du droit francophones qui vous aideront à vous y
-                        retrouver dans les lois immobilières Congolaises.</p>
-                </div>
-
-            </div>
-            <div class="container-flex-why-us">
-                <div class="icons-details-why-us">
-                    <i class="fa-brands fa-buromobelexperte"></i>
-                </div>
-                <div class="desc-details-why-us">
-                    <h2>Expertise immobilière</h2>
-                    <p>Nous prenons le temps de comprendre vos besoins et de trouver des propriétés qui correspondent
-                        exactement à vos critères, garantissant un processus d'achat ou de location fluide.</p>
-                </div>
-
-            </div>
-            <div class="container-flex-why-us">
-                <div class="icons-details-why-us">
-                    <i class="fa-solid fa-handshake-angle"></i>
-                </div>
-                <div class="desc-details-why-us">
-                    <h2>Soutien continu</h2>
-                    <p>Nous restons disponibles pour toute question ou assistance dont vous pourriez avoir besoin tout
-                        au long de votre voyage.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Le Blog -->
-
-    <section class="blog-section">
-        <div class="section-texte-blog">
-            <h1>Pepites d'Or sur l'immoblier</h1>
-            <p>Tous nos conseils pour réussir tes projets immobiliers sereinement</p>
-            <a href="" class="btn-blog">Conseils des autres</a>
-        </div>
-        <div class="container-blog">
-            <div class="cadran-blog">
-                <div class="img-blog">
-                    <img src="./image/blog (1).jpg" alt="">
-                </div>
-                <div>
-                    <h2><a href="">Le guide du vendeur</a></h2>
-                </div>
-            </div>
-            <div class="cadran-blog">
-                <div class="img-blog">
-                    <img src="./image/blog (2).jpg" alt="">
-                </div>
-                <div>
-                    <h2><a href="">Le guide du acheteur</a></h2>
-                </div>
-            </div>
-            <div class="cadran-blog">
-                <div class="img-blog">
-                    <img src="./image/blog (3).jpg" alt="">
-                </div>
-                <div>
-                    <h2><a href="">Le guide du Locataire</a></h2>
-                </div>
-            </div>
-            <div class="cadran-blog">
-                <div class="img-blog">
-                    <img src="./image/blog (3).jpg" alt="">
-                </div>
-                <div>
-                    <h2><a href="">Le guide du Logeur</a></h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <div class="space">
-        
-    </div>
-    <section class="footer">
-        <div class="container-footer-desc">
-            <div class="img-apps">
-                <div class="img-apple-store">
-                    <img src="./image/download-ios.svg" alt="">
-                </div>
-              <div class="img-play-store">
-                    <img src="./image/download-android.svg" alt="">
-                </div>
-            </div>
-            <div class="footer-details">
-                <h1>Ressources</h1>
-                <p><a href="">Guides et conseils immobiliers</a></p>
-                <p><a href="">Le blog immobilier</a></p>
-                <p><a href="">Prix de l’immobilier</a></p>
-                <p><a href="">Estimez votre propriété</a></p>
-            </div>
-            <div class="footer-details">
-                <h1>A notre propos</h1>
-                <p><a href="">C'est quoi, Immo-Start</a></p>
-                <p><a href="">Qui sommes-nous ?</a></p>
-                <p><a href="">Rejoins notre équipe</a></p>
-                <p><a href="">Contactez-nous</a></p>
-            </div>
-            <div class="footer-details">
-                <h1>Pour les professionnels</h1>
-                <p><a href="">Les pepites d'Or</a></p>
-                <p><a href="">Dashboard agent</a></p>
-                <p><a href="">Publier votre annonce</a></p>
-            </div>
-            <div class="footer-details">
-                <h1>Légal</h1>
-                <p><a href="">Conditions générales</a></p>
-                <p><a href="">Confidentialité</a></p>
-                <p><a href="">Politique de cookies</a></p>
-            </div>
-        </div>
-    </section>
 </body>
-
 </html>
