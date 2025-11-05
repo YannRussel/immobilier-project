@@ -16,7 +16,7 @@
 }
 .container-login .hello{
     width: 50%;
-    background-color: #f6d338e5 ;
+    background-color: #f6d338a1 ;
     height: 100vh;
 }
 
@@ -26,6 +26,10 @@
     margin-top: 250px;
 }
 
+.titre p{
+    font-weight: 300;
+    /* line-height: 5; */
+}
 
 .login .texte{
     text-align: center;
@@ -33,6 +37,7 @@
     margin: 50px;
     margin-top: 100px;
 }
+
 
 .login .formulaire{
     margin: 50px;
@@ -81,6 +86,16 @@
     border: 1px solid #ccc;
     border-radius: 6px;
 
+}
+
+.formulaire form input:hover{
+    border: 1px solid black;
+
+}
+
+.formulaire form a{
+    text-decoration: none;
+    color: rgb(2, 72, 129);
 }
 
 .btn-input{
