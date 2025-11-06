@@ -29,39 +29,63 @@
             </button>
         </div>
     </header>
-    <section class="search" style="background-color:#f8d32ca1; height: 200px;">
-        <form action="">
-            <select name="" id="">
-                <option value="">Acheter</option>
-                <option value="">Louer</option>
-                <option value="">Louer pour les vaccances</option>
-            </select>
-            <select name="pays" id="pays">
-            <option value="AF">Afghanistan</option>
-            <option value="ZA">Afrique du Sud</option>
-            <option value="DE">Allemagne</option>
-            <option value="AO">Angola</option>
-            <option value="BE">Belgique</option>
-            <option value="BJ">Bénin</option>
-            <option value="BR">Brésil</option>
-            <option value="CA">Canada</option>
-            <option value="CG">Congo</option>
-            <option value="FR">France</option>
-            <option value="GB">Royaume-Uni</option>
-            <option value="US">États-Unis</option>
-            </select>
+<section class="search-hero">
+  <div class="search-card">
+    <h2 class="search-title">Trouvez votre prochain logement</h2>
 
-            <select name="" id="">
-                <option value="">Appartement</option>
-            </select>
-            <select name="" id="">
-                <option value="">Prix max</option>
-            </select>
-            <div class="submit">
-                <input type="submit" value="Rechercher">
-            </div>
-        </form>
-    </section>
+    <form action="" class="search-form" autocomplete="off">
+      <!-- Type d'opération -->
+      <label class="visually-hidden" for="operation">Type d’opération</label>
+      <select id="operation" class="input" required>
+        <option value="acheter">Acheter</option>
+        <option value="louer">Louer</option>
+        <option value="vacances">Louer pour les vacances</option>
+      </select>
+
+      <!-- Pays -->
+      <label class="visually-hidden" for="pays">Pays</label>
+      <select name="pays" id="pays" class="input" required>
+        <option value="AF">Afghanistan</option>
+        <option value="ZA">Afrique du Sud</option>
+        <option value="DE">Allemagne</option>
+        <option value="AO">Angola</option>
+        <option value="BE">Belgique</option>
+        <option value="BJ">Bénin</option>
+        <option value="BR">Brésil</option>
+        <option value="CA">Canada</option>
+        <option value="CG" selected>Congo</option>
+        <option value="FR">France</option>
+        <option value="GB">Royaume-Uni</option>
+        <option value="US">États-Unis</option>
+      </select>
+
+      <!-- Type de bien -->
+      <label class="visually-hidden" for="type-bien">Type de bien</label>
+      <select id="type-bien" class="input">
+        <option>Appartement</option>
+        <option>Studio</option>
+        <option>Maison</option>
+        <option>Villa</option>
+        <option>Terrain</option>
+      </select>
+
+      <!-- Prix max -->
+      <label class="visually-hidden" for="prix-max">Prix max</label>
+      <select id="prix-max" class="input">
+        <option value="">Prix max</option>
+        <option value="100">100 000</option>
+        <option value="200">200 000</option>
+        <option value="500">500 000</option>
+        <option value="1000">1 000 000</option>
+        <option value="2000">2 000 000</option>
+      </select>
+
+      <!-- Bouton -->
+      <button type="submit" class="btn-submit">Rechercher</button>
+    </form>
+  </div>
+</section>
+
     <section class="gallerie" style="margin-top: -50px;">
         <!-- <div class="gallerie-desc">
             <h1>Les meilleurs agents immobiliers du Monde</h1>
