@@ -1,0 +1,24 @@
+<!-- Logo B — H24Online Emblème (copie-colle dans un fichier .svg) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 140" width="420" height="140" role="img" aria-label="H24Online emblem">
+  <!-- Maison -->
+  <path d="M40 70 L80 40 L120 70 L120 110 L40 110 Z" fill="#0B57A4"></path>
+  <!-- Lettre H inside -->
+  <rect x="58" y="78" width="8" height="22" fill="#ffffff"></rect>
+  <rect x="72" y="78" width="8" height="22" fill="#ffffff"></rect>
+  <rect x="58" y="94" width="22" height="6" fill="#ffffff"></rect>
+  <!-- Toit accent -->
+  <path d="M40 70 L80 40 L120 70" fill="none" stroke="#083F7A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Ondes Wi-Fi (online) -->
+  <path d="M148 46 C170 36, 200 36, 222 46" fill="none" stroke="#00A896" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M154 56 C175 48, 195 48, 216 56" fill="none" stroke="#00A896" stroke-width="3" stroke-linecap="round"></path>
+  <circle cx="232" cy="64" r="6" fill="#00A896"></circle>
+
+  <!-- Badge 24 -->
+  <circle cx="108" cy="40" r="14" fill="#F6C84C"></circle>
+  <text x="108" y="44" fill="#111" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="10" text-anchor="middle" dominant-baseline="middle">24</text>
+
+  <!-- Wordmark -->
+  <text x="260" y="86" fill="#0B57A4" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="800" font-size="40">H24</text>
+  <text x="330" y="86" fill="#222222" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600" font-size="28">Online</text>
+</svg>

@@ -1,0 +1,22 @@
+<!-- Logo A — H24Online (copie-colle dans un fichier .svg) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" width="420" height="120" role="img" aria-label="H24Online logo">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0B57A4"></stop>
+      <stop offset="1" stop-color="#0A4F90"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Icône (fond transparent) -->
+  <rect x="10" y="18" rx="16" ry="16" width="84" height="84" fill="url(#g1)"></rect>
+  <!-- Lettre H blanche -->
+  <text x="52" y="78" fill="#ffffff" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="48" text-anchor="middle" dominant-baseline="middle">H</text>
+
+  <!-- Badge 24 (superposé) -->
+  <circle cx="96" cy="26" r="20" fill="#00A896"></circle>
+  <text x="96" y="31" fill="#ffffff" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="15" text-anchor="middle" dominant-baseline="middle">24</text>
+
+  <!-- Wordmark -->
+  <text x="130" y="74" fill="#0B57A4" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="800" font-size="44">H24</text>
+  <text x="220" y="74" fill="#222222" font-family="Segoe UI, Roboto, Arial, sans-serif" font-weight="600" font-size="34">Online</text>
+</svg>
