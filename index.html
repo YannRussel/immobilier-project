@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>H24Online une plateforme de Gestion des biens immobiliers</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./pages/search.css">
     <script src="https://kit.fontawesome.com/03ddddf705.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -19,9 +21,9 @@
 
         <ul>
             <li><a href="">Acceuil</a></li>
-            <li><a href="">destination </a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Reviews</a></li>
+            <!-- <li><a href="">destination </a></li> -->
+            <li><a href="">logement</a></li>
+            <li><a href="">Blog</a></li>
             <li><a href="./pages/login.html">Se connecter</a></li>
             <li><a href=""><i class="fa-solid fa-location-dot"></i> Suisse</a></li>
         </ul>
@@ -65,6 +67,62 @@
         </div>
     </section>
 
+<section class="search-hero" style="background: none;">
+  <div class="search-card" style="background-color: black;">
+    <h2 class="search-title">Trouvez votre prochain logement</h2>
+
+    <form action="" class="search-form" autocomplete="off">
+      <!-- Type d'opération -->
+      <label class="visually-hidden" for="operation">Type d’opération</label>
+      <select id="operation" class="input" required>
+        <option value="acheter">Acheter</option>
+        <option value="louer">Louer</option>
+        <option value="vacances">Louer pour les vacances</option>
+      </select>
+
+      <!-- Pays -->
+      <label class="visually-hidden" for="pays">Pays</label>
+      <select name="pays" id="pays" class="input" required>
+        <option value="AF">Afghanistan</option>
+        <option value="ZA">Afrique du Sud</option>
+        <option value="DE">Allemagne</option>
+        <option value="AO">Angola</option>
+        <option value="BE">Belgique</option>
+        <option value="BJ">Bénin</option>
+        <option value="BR">Brésil</option>
+        <option value="CA">Canada</option>
+        <option value="CG" selected>Congo</option>
+        <option value="FR">France</option>
+        <option value="GB">Royaume-Uni</option>
+        <option value="US">États-Unis</option>
+      </select>
+
+      <!-- Type de bien -->
+      <label class="visually-hidden" for="type-bien">Type de bien</label>
+      <select id="type-bien" class="input">
+        <option>Appartement</option>
+        <option>Studio</option>
+        <option>Maison</option>
+        <option>Villa</option>
+        <option>Terrain</option>
+      </select>
+
+      <!-- Prix max -->
+      <label class="visually-hidden" for="prix-max">Prix max</label>
+      <select id="prix-max" class="input">
+        <option value="">Prix max</option>
+        <option value="100">100 000</option>
+        <option value="200">200 000</option>
+        <option value="500">500 000</option>
+        <option value="1000">1 000 000</option>
+        <option value="2000">2 000 000</option>
+      </select>
+
+      <!-- Bouton -->
+      <button type="submit" class="btn-submit">Rechercher</button>
+    </form>
+  </div>
+</section>
     <section class="gallerie">
         <div class="gallerie-desc">
             <h1>Les meilleurs agents immobiliers du Monde</h1>
